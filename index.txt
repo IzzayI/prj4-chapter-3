@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Amazing Dogs</title>
+	</head>
+	<body>
+		<h1>The Poodle</h1>
+		<p>
+			The poodle is a beautiful dog breed, very smart, intelligent and it comes in big and small.
+		</p>
+		<img src="images/big_pudel.jpg" width="300" alt="Picture of a Poodle">
+		<h2>History</h2>
+		<p>
+			The name of the poodle comes from the German word <em>pudeln</em>, which means splash in water. 
+			The poodle used to be a popular breed for water-hunts of noblemen before the 19th century, therefore the name.
+			The exact country of origin is officially France, though.
+		</p>
+		<p>
+			Website developed by a <a href="https//www.buas.nl" target="_blank">Breda University Student</a>
+		</p>
+	</body>
+</html>
