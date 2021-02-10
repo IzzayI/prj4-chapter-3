@@ -23,6 +23,9 @@
 	color: white;
 }
 
+h2 {
+	font-family: Franklin Gothic Medium;
+}
 
 #corners {
 	border-radius: 50px;
@@ -49,4 +52,14 @@
 .features {
 	float: left;
 	width: 45%;
+}
+
+#Buas {
+	color: Grey;
+}
+
+.dummytext {
+	font-family: Franklin Gothic Medium;
+	color: white;
+	
 }
