@@ -1,69 +1,69 @@
 @charset "utf-8";
 
+* {
+	margin: 0px;
+	font-family: 'Quicksand', sans-serif;
+	}
+
+button {
+	position: fixed;
+	top: 70px;
+	right: 50px;
+	background-color: inherit;
+	padding: 20px;
+	border-radius: 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+header {
+	background-image: url("../images/backgroundimg.jpg");
+   	background-attachment: fixed;
+}
+
+#corners {
+	border-radius: 30px;
+	margin: 50px;
+}
+
 .introduction {
 	text-align: center;
-	background-color: #DB9E9C;
 	padding: 50px;
-	background-size: cover;
-	border-radius: 30px;
-	
-}
-
-.introduction h1 {
-	font-family: Franklin Gothic Medium;
-	font-size: 50px;
-	font-stretch: ultra-expanded;
+	background-size: cover;	
 	color: white;
-	
 }
 
-.introduction h3 {
-	font-family: Franklin Gothic Medium;
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
 	font-size: 13px;
 	color: white;
 }
 
-h2 {
-	font-family: Franklin Gothic Medium;
-}
-
-#corners {
-	border-radius: 50px;
-}
-
-
-.features, .history {
+.box {
 	border-style: solid;
-	border-color: #C77C7A;
+	border-color: darkseagreen;
 	border-radius: 30px;
-	padding: 20px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	min-width: 100px;
-	
+	padding-left: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 100px;
+	margin: 50px;
 }
 
-.history {
-	float: left;
-	width: 45%;
-	
-}
-
-.features {
-	float: right;
-	width: 45%;
-}
-
-.end {
-	float: left;
-}
-
-#Buas {
+footer {
 	color: Grey;
-}
-
-#dummytext {
-	font-family: Franklin Gothic Medium;
-	color: white;
-	text-align: left;
+	position: static;
+	bottom: 2px;
 }
